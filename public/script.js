@@ -1,5 +1,7 @@
 const socket = io("/");
 
+const user = prompt("Enter your Name");
+
 var peer = new Peer(undefined, {
     path:  "/peerjs",
     host: "/",
